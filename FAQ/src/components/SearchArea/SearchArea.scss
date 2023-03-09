@@ -1,0 +1,60 @@
+.search-area {
+    background-image: url('/assets/images/insurgentes.jpg'); 
+    background-color: red;
+    height: 200px;
+    z-index: 9999;
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 100%;
+    
+    h1 {
+        text-align: center;
+        width: 100%;
+        font-size: 40px;
+        color: white;
+        font-weight: 400;
+        float: left;
+        margin: 2% auto 1% 0;
+    }
+    input {
+        z-index: 9999;
+        height: 40px;
+        padding-left: 22px;
+        font-size: 0.7em;
+        font-style: italic;
+        margin: 0 auto;
+        display: block !important;
+        box-sizing: border-box;
+        width: 60%;
+    }
+    .results-box {
+        width: 60%;
+        display: block;
+        border: 1px solid #000;
+        margin: 0 auto;
+        background-color: #fff;
+        max-height: 200px;
+        height: 200px;
+        
+    }
+}
+
+@media (max-width: 600px) {
+    .search-area {
+        height: 150px;
+        
+        input {
+            width: 96%;
+            border: none;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin-top: 15%;
+        }
+        .results-box {
+            width: 96%;
+        }
+    }
+}

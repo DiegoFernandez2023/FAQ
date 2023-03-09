@@ -1,0 +1,26 @@
+{
+    "sites": [
+        {
+            "id": "liverpool",
+            "name": "Liverpool",
+            "available": true
+        },
+        {
+            "id": "suburbia",
+            "name": "Suburbia",
+            "available": true
+        }
+    ],
+    "headers": [
+        {
+            "id": "header-liverpool",
+            "text": "<h1>Liverpool</h1>",
+            "site": "liverpool"
+        },
+        {
+            "id": "header-suburbia",
+            "text": "<h1>Suburbia</h1>",
+            "site": "suburbia"
+        }
+    ]
+}
