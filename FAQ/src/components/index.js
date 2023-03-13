@@ -1,5 +1,5 @@
 export * from './Categorias'
-export * from './Contacto'
+export * from './Contacto/Contacto'
 export * from './Footer'
 export * from './Header/Header'
 export * from './Preguntas/Preguntas'

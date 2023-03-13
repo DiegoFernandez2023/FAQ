@@ -1,0 +1,16 @@
+.contact-wrapper {
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.card {
+    grid-column: span 1;
+}
+
+@media (max-width: 600px) {
+    .contact-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
